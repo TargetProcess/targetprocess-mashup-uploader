@@ -1,0 +1,31 @@
+{
+  "name": "targetprocess-mashup-uploader",
+  "version": "0.1.0",
+  "description": "Utility to upload mashup file to Targetprocesss Mashup Manager.",
+  "keywords": [
+    "targetprocess",
+    "mashup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TargetProcess/targetprocess-mashup-uploader.git"
+  },
+  "author": "Aliaksei Shytkin <shitkin@targetprocess.com>",
+  "bin": {
+    "targetprocess-mashup-uploader": "./index.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "chokidar": "^1.0.3",
+    "optionator": "^0.6.0",
+    "request-promise": "^0.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^0.23.0"
+  }
+}
