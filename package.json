@@ -1,6 +1,6 @@
 {
   "name": "targetprocess-mashup-uploader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utility to upload mashup file to Targetprocesss Mashup Manager.",
   "keywords": [
     "targetprocess",
