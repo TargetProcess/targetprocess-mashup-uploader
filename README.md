@@ -1,10 +1,13 @@
 # targetprocess-mashup-uploader
 
-Simple utility to upload mashups to Targetprocesss Mashup Manager
+Utility to upload mashup file to Targetprocesss Mashup Manager.
 
 ## Installation
 
 ```
+git clone git@github.com:TargetProcess/targetprocess-mashup-uploader.git
+cd targetprocess-mashup-uploader
+npm install
 npm link
 ```
 
