@@ -62,7 +62,7 @@ var createMashup = function(filename, options) {
                 Name: options.name,
                 Placeholders: 'restui_board',
                 Files: [{
-                    FileName: 'foobar.js',
+                    FileName: options.name + '.js',
                     Content: fileData
                 }]
             },
@@ -120,7 +120,7 @@ var updateMashup = function(filename, options) {
                 OldName: options.name,
                 Placeholders: 'restui_board',
                 Files: [{
-                    FileName: 'foobar.js',
+                    FileName: options.name + '.js',
                     Content: fileData
                 }]
             },
