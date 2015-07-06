@@ -50,7 +50,7 @@ var options = optionator({
         option: 'placeholder',
         type: 'String',
         description: 'Placeholder',
-        deafult: 'restui_board',
+        default: 'restui_board',
         require: true
     }]
 });
