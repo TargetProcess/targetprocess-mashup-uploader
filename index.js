@@ -46,6 +46,12 @@ var options = optionator({
         alias: 'w',
         type: 'Boolean',
         description: 'Watch file and upload on changes'
+    }, {
+        option: 'placeholder',
+        type: 'String',
+        description: 'Placeholder',
+        default: 'restui_board',
+        require: true
     }]
 });
 
@@ -60,7 +66,7 @@ var createMashup = function(filename, options) {
             json: true,
             body: {
                 Name: options.name,
-                Placeholders: 'restui_board',
+                Placeholders: options.placeholder,
                 Files: [{
                     FileName: options.name + '.js',
                     Content: fileData
@@ -118,7 +124,7 @@ var updateMashup = function(filename, options) {
             body: {
                 Name: options.name,
                 OldName: options.name,
-                Placeholders: 'restui_board',
+                Placeholders: options.placeholder,
                 Files: [{
                     FileName: options.name + '.js',
                     Content: fileData
